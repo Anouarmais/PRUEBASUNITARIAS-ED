@@ -22,12 +22,7 @@ public class OperacionesEstadisticas {
         return suma / numeros.length;
     }
 
-    /**
-     * Calcula la mediana de un conjunto de números.
-     *
-     * @param numeros Un array de números para calcular la mediana.
-     * @return La mediana de los números en el array.
-     */
+
     public static double Mediana(double[] numeros) {
         Arrays.sort(numeros);
         int n = numeros.length;
@@ -38,11 +33,7 @@ public class OperacionesEstadisticas {
         }
     }
 
-    /**
-     * Realiza el cálculo de la media aritmética de un conjunto de números ingresados por el usuario.
-     *
-     * @param scanner El objeto Scanner para leer la entrada del usuario.
-     */
+
     public static void HacerMedia(Scanner scanner) {
         System.out.println("Ingrese los números para calcular la media (separados por espacios):");
         double[] numeros = new double[5];
@@ -52,11 +43,7 @@ public class OperacionesEstadisticas {
         System.out.println("La media de los números ingresados es: " + OperacionesEstadisticas.Media(numeros));
     }
 
-    /**
-     * Realiza el cálculo de la mediana de un conjunto de números ingresados por el usuario.
-     *
-     * @param scanner El objeto Scanner para leer la entrada del usuario.
-     */
+
     public static void HacerMediana(Scanner scanner) {
         System.out.println("Ingrese los números para calcular la mediana (separados por espacios):");
         double[] nums = new double[5];
