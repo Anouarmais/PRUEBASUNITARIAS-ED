@@ -43,7 +43,7 @@ public class OperacionesEstadisticas {
      *
      * @param scanner El objeto Scanner para leer la entrada del usuario.
      */
-    public static void realizarMedia(Scanner scanner) {
+    public static void HacerMedia(Scanner scanner) {
         System.out.println("Ingrese los números para calcular la media (separados por espacios):");
         double[] numeros = new double[5];
         for (int i = 0; i < 5; i++) {
@@ -57,7 +57,7 @@ public class OperacionesEstadisticas {
      *
      * @param scanner El objeto Scanner para leer la entrada del usuario.
      */
-    public static void realizarMediana(Scanner scanner) {
+    public static void HacerMediana(Scanner scanner) {
         System.out.println("Ingrese los números para calcular la mediana (separados por espacios):");
         double[] nums = new double[5];
         for (int i = 0; i < 5; i++) {

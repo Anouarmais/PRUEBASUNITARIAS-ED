@@ -27,16 +27,16 @@ public class Main {
 
         switch (aux) {
             case 1:
-                OperacionesAritmeticas.realizarSuma(scanner);
+                OperacionesAritmeticas.HacerSuma(scanner);
                 break;
             case 2:
-                OperacionesAritmeticas.realizarResta(scanner);
+                OperacionesAritmeticas.HacerResta(scanner);
                 break;
             case 3:
-                OperacionesEstadisticas.realizarMedia(scanner);
+                OperacionesEstadisticas.HacerMedia(scanner);
                 break;
             case 4:
-                OperacionesEstadisticas.realizarMediana(scanner);
+                OperacionesEstadisticas.HacerMediana(scanner);
                 break;
             default:
                 System.out.println("Opción no válida");

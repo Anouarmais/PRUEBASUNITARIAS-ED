@@ -37,7 +37,7 @@ public class OperacionesAritmeticas {
      *
      * @param scanner El objeto Scanner para leer la entrada del usuario.
      */
-    public static void realizarSuma(Scanner scanner) {
+    public static void HacerSuma(Scanner scanner) {
         System.out.println("Ingrese dos números para sumar:");
         double num1 = scanner.nextDouble();
         double num2 = scanner.nextDouble();
@@ -49,7 +49,7 @@ public class OperacionesAritmeticas {
      *
      * @param scanner El objeto Scanner para leer la entrada del usuario.
      */
-    public static void realizarResta(Scanner scanner) {
+    public static void HacerResta(Scanner scanner) {
         System.out.println("Ingrese dos números para restar:");
         double num3 = scanner.nextDouble();
         double num4 = scanner.nextDouble();
