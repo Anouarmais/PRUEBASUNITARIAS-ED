@@ -9,11 +9,7 @@ import java.util.Scanner;
  */
 public class Main {
 
-    /**
-     * El método principal del programa.
-     *
-     * @param args Los argumentos de línea de comandos (no se utilizan en este programa).
-     */
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
